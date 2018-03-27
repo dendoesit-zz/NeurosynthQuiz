@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: lightgray;
+}
+
+#main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background: whitesmoke;
+    border: 5px solid black;
+    text-align: center;
+}
+
+form{
+    margin: auto;
+    width: 54%;
+    padding: 10px;
+    text-align: center;
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#apiimages img{
+    text-align: center;
+    padding-right: 5%;
+
+}
+
+#centerButton{
+    margin: auto;
+    text-align: center;
+    width: auto;
+}
+
+#loginText{
+    margin: 10px;
+}
+
+#topMenu{
+    background-color: whitesmoke;
+    border-bottom: solid 2px black;
+    float: left;
+    width: 100%;
+    heigth:8%;
+}
+
+#logo{
+    display: inline-block;
+    float: left;
+    height:100px;
+    padding:1%;'
+}
+
+ul{
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    width: 750px;
+}
+
+ul li{
+    float: right;
+    clear: right;
+}
+
+ul li:first-child{
+	font-size:26px;
+	float:left;
+	padding:1%;
+}
+
+ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    height:10%;
+    font-size:26px;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+h1{
+	margin-right:50%;
+}
+
+#answers {
+    margin: 0 auto;
+	font-size:20px;
+}
+#answer1, #answer2 {
+    border: 1px solid white;
+    float: left;
+    min-height: 400px;
+    position: relative;
+}
+#answer1 {
+    width: 500px;
+    background: whitesmoke;
+    border: 5px solid black;
+    text-align: center;
+}
+
+#answer2 {
+    width: 500px;
+    background: whitesmoke;
+    border: 5px solid black;
+    text-align: center;
+}
+
+ol li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+#btn {
+    width:35%;
+    font-size: 22px;
+    right:5px;
+    bottom:10px;
+    position:absolute;
+}
+
+input[type="radio"]{
+	height:20px;
+	width:20px;
+	border-color:2px solid red;
+}
+/* ---------------neurosynth api */
+
+#view_axial {
+  width: 280px;
+  height: 260px; }
+
+#view_coronal {
+  width: 250px;
+  height: 220px;
+  margin-bottom: 20px; }
+
+#view_sagittal {
+  width: 264px;
+  height: 260px;
+margin-right:20px;}
+
+.view {
+  float: left; }
+
+.nav-slider-vertical {
+  height: 100%;
+  margin-left: 5px;
+  float: left; }
+
+.nav-slider-horizontal {
+  width: 100%;
+  margin-top: 5px;
+  float: left; }
+
+canvas {
+  float: left; }
+
+#layer_panel {
+	width: 240px;
+	float: left;
+	margin-left: 10px;
+}
+
+#layer_settings_panel {
+	font-size: 14px;
+	clear: left;
+	width: 215px;
+	margin-top: 10px;
+	float: left;
+}
+
+#layer_list_panel {
+	/*width: 215px;*/
+	float: left;
+}
+
+#layer_list {
+	/*width: 150px;*/
+	float: left;
+}
+
+#layer_visible_list {
+	width: 25px;
+	float: left;
+}
+
+
+#color_palette {
+	width: 180px;
+}
+
+.visibility_icon {
+	width: 20px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	padding: 3px;
+	/*padding-left: 5px;*/
+	background: white;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+.download_icon {
+	width: 20px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	padding: 3px;
+	background: white;
+	border-left: 1px solid #999;
+}
+
+.deletion_icon {
+	width: 20px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	padding: 3px;
+	background: white;
+	border-left: 1px solid #999;
+}
+
+#data_panel {
+	margin-top: 20px;
+	float: left;
+	font: 12px;
+}
+
+.data_display_row {
+	float: left;
+	width: 200px;
+	text-align: center;
+	padding: 7px 12px 7px 0px;
+}
+
+#data_current_coords {
+	font-size: 22px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	background: #ccc;
+	border: 1px #aaa;
+	line-height: 1.5em;
+	margin:5%;
+}
+
+#data_current_value {
+	font-size: 22px;
+	line-height: 1.5em;
+	background: #ccc;
+	border: 1px #eee;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+ul#layer_list li {
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #ddb #999 #999 #ddb;
+	font-size: 12px;
+	background: white;
+	/*padding: 3px;*/
+	margin: 0px;
+	float: left;
+}
+
+.layer_label {
+	float: left;
+	width: 150px;
+	background: #ccc;
+	padding: 3px;
+}
+
+ul#layer_list {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.selected {
+	background: #cff;
+}
+
+/* ---------------neurosynth api */
+
+
+/* ----- Table on analysts page Buttons */
+#container-analyst{
+	width:15%;
+	margin:0 auto;
+	padding:5%;
+	background-color:white;
+	border:2px solid black;
+}
+table{
+	background-color:white;
+	padding:1%;
+	margin: 0 auto:
+	width:100%;
+	font-size:22px;
+}
+td{
+	width:70px;
+	padding:5%;
+	text-align:center;
+}
+tr:hover {background-color: #f5f5f5;}
+
+th {
+    background-color: #001f3f;
+    color: white;
+    padding:15px;
+    
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
